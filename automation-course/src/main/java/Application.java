@@ -1,13 +1,13 @@
+import inheritance.Circle;
+import inheritance.Shape;
+
+import java.awt.*;
 
 public class Application {
 
-
     public static void main(String[] args) {
-        Telefon telefonDima = new Telefon("Siemens");
-        Telefon telefonVlad = new Telefon("Samsung");
+        Circle circle = new Circle(2);
 
-      /*  System.out.println("Telefonul lui Dima este de marca " + telefonDima.getMarcaTelefon());
-        System.out.println("Telefonul lui Vlad este de marca " + telefonVlad.getMarcaTelefon());*/
-        telefonDima.setMemorieRam(-100);
+        Rectangle rectangle = new Rectangle(2,3);
     }
 }

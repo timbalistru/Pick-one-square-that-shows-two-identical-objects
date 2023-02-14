@@ -4,13 +4,17 @@ public class Telefon {
 
     private String modeltelefon = "X12";
 
-    private Integer memorieRam = - 100;
+    private Integer memorieRam = -100;
 
     private Float displaySize = 15.3F;
 
     private Integer baterie = 5000;
 
-    Telefon(String denumireMarcaTelefon){
+    Telefon() {
+        marcaTelefon = "Xiaomi";
+    }
+
+    Telefon(String denumireMarcaTelefon) {
         this.marcaTelefon = marcaTelefon;
     }
 
@@ -54,8 +58,8 @@ public class Telefon {
         this.memorieRam = memorieRam;
     }
 
-    public Float getDisplaySize() {
-        return displaySize;
+    public void printDisplaySize() {
+        System.out.println(this.displaySize);
     }
 
     public void setDisplaySize(Float displaySize) {
