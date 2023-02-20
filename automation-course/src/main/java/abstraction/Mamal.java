@@ -1,6 +1,6 @@
 package abstraction;
 
-public class Mamal extends Vietate implements Nastere  {
+public class Mamal extends Vietate implements Nastere,interfata1 {
 
     @Override
     public void  seHraneste() {
@@ -17,4 +17,5 @@ public class Mamal extends Vietate implements Nastere  {
     public void seNaste() {
         System.out.println("se naste");
     }
+
 }
