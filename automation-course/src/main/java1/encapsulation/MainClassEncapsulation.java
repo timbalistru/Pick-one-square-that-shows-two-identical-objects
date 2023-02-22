@@ -1,6 +1,6 @@
 package encapsulation;
 
-public class MainClass1 {
+public class MainClassEncapsulation {
 
     public static void main(String[] args) {
 
