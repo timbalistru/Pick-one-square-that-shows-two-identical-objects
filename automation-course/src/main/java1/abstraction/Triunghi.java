@@ -1,6 +1,6 @@
 package abstraction;
 
-public class Triunghi extends FormaGeometrica{
+public class Triunghi extends FormaGeometrica {
 
     private double baza;
     private double inaltime;
@@ -21,13 +21,13 @@ public class Triunghi extends FormaGeometrica{
         this.inaltime = inaltime;
     }
 
-    public Triunghi (double baza, double inaltime) {
+    public Triunghi(double baza, double inaltime) {
         setBaza(baza);
         setInaltime(inaltime);
     }
 
     @Override
     double calculArie() {
-        return (baza*inaltime)/2;
+        return (baza * inaltime) / 2;
     }
 }

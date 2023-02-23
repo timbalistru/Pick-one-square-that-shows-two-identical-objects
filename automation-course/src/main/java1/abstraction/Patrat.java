@@ -13,12 +13,12 @@ public class Patrat extends FormaGeometrica {
 
     }
 
-    public Patrat (double latura) {
+    public Patrat(double latura) {
         setLatura(latura);
     }
 
     @Override
-    double calculArie () {
-        return latura*latura;
+    double calculArie() {
+        return latura * latura;
     }
 }

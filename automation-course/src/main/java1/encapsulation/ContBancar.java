@@ -5,7 +5,7 @@ public class ContBancar {
     private long numarCont;
     private float sold;
 
-    public ContBancar(long numarCont, float sold ){
+    public ContBancar(long numarCont, float sold) {
         this.numarCont = numarCont;
         this.sold = sold;
     }

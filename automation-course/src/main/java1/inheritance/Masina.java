@@ -6,7 +6,7 @@ public class Masina extends Vehicul {
 
     public Masina(String marca) {
         super();
-        this.marca=marca;
+        this.marca = marca;
     }
 
     public String getMarca() {
