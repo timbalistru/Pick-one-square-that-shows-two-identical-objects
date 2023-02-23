@@ -13,7 +13,6 @@ public class Persoana {
 
     }
 
-
     public int getVarsta() {
         return varsta;
     }
@@ -21,6 +20,5 @@ public class Persoana {
     public void setVarsta(int varsta) {
         this.varsta = varsta;
     }
-
 
 }
