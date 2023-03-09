@@ -1,5 +1,5 @@
 public class ContulPersoanei {
-    
+
     //definirea proprietatilor
     private String numePersoana;
     private int id;
